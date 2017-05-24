@@ -1,0 +1,103 @@
+.fieldName {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.fieldValue {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.contactDetails {
+    border: solid 1px grey;
+    padding-bottom: 20px;
+    background: #efefef;
+    color: #000;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+.deleteContactButton {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    width: 25px;
+    height: 25px;
+}
+
+.mainHeading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 21pt;
+    font-family: arial;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(14, 98, 125);
+    font-weight: bold;
+    clear: both;
+}
+
+.contacts {
+    padding-bottom: 70px;
+    padding-left: 20px;
+    min-height: 100px;
+}
+
+.addContactDiv {
+    width: 100%;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.textBox {
+    width: 87%;
+    height: 32px;
+    font-size: 12pt;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: lightblue;
+    border-style: groove;
+}
+
+.textBoxInvalid {
+    width: 87%;
+    height: 32px;
+    font-size: 12pt;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: red;
+    border-style: groove;
+}
+
+.emailValue {
+    width: 200px;
+}
+
+.label {
+    font-size: 14pt;
+    display: inline;
+    margin-right: 16px;
+}
+
+.button {
+    float: left;
+    padding: 10px 15px 11px;
+    font-size: 15px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
